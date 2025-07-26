@@ -27,7 +27,7 @@ with open(CONF_PATH,"r") as file_client_set:
         f=json.load(file_client_set)
         test_link_=f["core"]["test_url"]
 TEXT_PATH="normal.txt"
-LINK_PATH=[] # [ "https://raw.githubusercontent.com/ashahdevs/v2ray/refs/heads/main/subscribe/protocols/vmess" , "https://raw.githubusercontent.com/ashahdevs/v2ray/refs/heads/main/subscribe/protocols/vless" , "Link3" , "Link4" ]
+LINK_PATH=[] # [ https://raw.githubusercontent.com/ashahdevs/v2ray/refs/heads/main/subscribe/protocols/vmess , "https://raw.githubusercontent.com/ashahdevs/v2ray/refs/heads/main/subscribe/protocols/vless" , "Link3" , "Link4" ]
 FIN_PATH="final.txt"
 FIN_CONF=[]
 CHECK_LOC=False
